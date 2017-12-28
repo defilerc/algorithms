@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58EB29D1-C94A-42BE-BBB3-1AAC4662E21E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Algo</RootNamespace>
+    <AssemblyName>Algo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backtracking\ClimbingStaircaseAlgo.cs" />
+    <Compile Include="Backtracking\CombinationSum.cs" />
+    <Compile Include="Backtracking\NQueensAlgo.cs" />
+    <Compile Include="Backtracking\SumSubsetsAlgo.cs" />
+    <Compile Include="Backtracking\WordBoggleAlgo.cs" />
+    <Compile Include="BfsDfs\DigitTreeSumAlgo.cs" />
+    <Compile Include="BfsDfs\GraphDistancesAlgo.cs" />
+    <Compile Include="BfsDfs\LongestPathAlgo.cs" />
+    <Compile Include="Bits\InsertBitsAlgo.cs" />
+    <Compile Include="Bits\StreamValidation.cs" />
+    <Compile Include="CommonTechniques\LongestSubArrayBySum.cs" />
+    <Compile Include="CommonTechniques\MaxConsecutiveSum.cs" />
+    <Compile Include="CommonTechniques\MinSubstringWithAllChars.cs" />
+    <Compile Include="CommonTechniques\MinSubstringWithAllCharsEfficient.cs" />
+    <Compile Include="CommonTechniques\ProductExceptSelf.cs" />
+    <Compile Include="CommonTechniques\SumInRange.cs" />
+    <Compile Include="DP2\WaysToSumNumber - Copy.cs" />
+    <Compile Include="DP2\WaysToSumNumber.cs" />
+    <Compile Include="DynamicProgrammingAdvanced\KPalindrome.cs" />
+    <Compile Include="DynamicProgrammingAdvanced\LongestIncreasingSubsequence.cs" />
+    <Compile Include="DynamicProgrammingAdvanced\MaximalSquare.cs" />
+    <Compile Include="DynamicProgrammingAdvanced\PaintHouses.cs" />
+    <Compile Include="DynamicProgrammingAdvanced\RegexMatching.cs" />
+    <Compile Include="DynamicProgramming\ClimbingStairsAlgo.cs" />
+    <Compile Include="DynamicProgramming\ComposeRangesAlgo.cs" />
+    <Compile Include="DynamicProgramming\HouseRobberAlgo.cs" />
+    <Compile Include="DynamicProgramming\MapDecodingAlgo.cs" />
+    <Compile Include="HeapStackQueue\CountClouds.cs" />
+    <Compile Include="HeapStackQueue\DecodeString.cs" />
+    <Compile Include="HeapStackQueue\KthLargestInArray.cs" />
+    <Compile Include="HeapStackQueue\MinimumOnStack.cs" />
+    <Compile Include="HeapStackQueue\NearestGreater - Copy.cs" />
+    <Compile Include="HeapStackQueue\NearestGreater.cs" />
+    <Compile Include="HeapStackQueue\NearestGreaterDummy.cs" />
+    <Compile Include="HeapStackQueue\NextLarger.cs" />
+    <Compile Include="HeapStackQueue\SimplifyPath.cs" />
+    <Compile Include="Lists\AddTwoHugeNumbers.cs" />
+    <Compile Include="DynamicProgramming\CutRodMemoized.cs" />
+    <Compile Include="DynamicProgramming\CutRodSimple.cs" />
+    <Compile Include="Arrays\FirstDuplicate.cs" />
+    <Compile Include="Arrays\FirstNonRepeatingChar.cs" />
+    <Compile Include="GoodSet.cs" />
+    <Compile Include="HashSets\GroupingDishes.cs" />
+    <Compile Include="Arrays\IncrementCipher.cs" />
+    <Compile Include="Models\Heap.cs" />
+    <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Arrays\IsCryptSolution.cs" />
+    <Compile Include="Lists\IsListPalindrome.cs" />
+    <Compile Include="Models\ListNode.cs" />
+    <Compile Include="Arrays\MaxSubArray.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
+    <Compile Include="Models\Tree.cs" />
+    <Compile Include="HashSets\PossibleSums.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Lists\RearrangeLastN.cs" />
+    <Compile Include="Lists\RemoveKFromList.cs" />
+    <Compile Include="Lists\ReverseNodesInKGroups.cs" />
+    <Compile Include="Arrays\RotateMatrix.cs" />
+    <Compile Include="Arrays\Sudoku.cs" />
+    <Compile Include="HashSets\SwapLexOrder.cs" />
+    <Compile Include="Strings\AmendTheSentence.cs" />
+    <Compile Include="Strings\ClassifyStringsAlgo.cs" />
+    <Compile Include="Strings\FindSubstring.cs" />
+    <Compile Include="Strings\FindSubstringKmp.cs" />
+    <Compile Include="Strings\LongestCommonSubstringAlgo.cs" />
+    <Compile Include="Strings\RegexMatchingAlgo.cs" />
+    <Compile Include="Strings\TextJustification.cs" />
+    <Compile Include="TopTal\Algo1.cs" />
+    <Compile Include="TopTal\MaxZigZag.cs" />
+    <Compile Include="TopTal\MonkeyJump.cs" />
+    <Compile Include="TopTal\SwapSort.cs" />
+    <Compile Include="Trees\DeleteFromBST.cs" />
+    <Compile Include="Trees\FindProfession.cs" />
+    <Compile Include="Trees\HasPathWithGivenSum.cs" />
+    <Compile Include="Trees\IsTreeSymmetric.cs" />
+    <Compile Include="Trees\KthLargestInBST.cs" />
+    <Compile Include="Trees\RestoreBinaryTree.cs" />
+    <Compile Include="Trees\Traversals.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
