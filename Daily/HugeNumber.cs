@@ -1,22 +1,15 @@
-﻿namespace Daily
-{
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System;
+using System.Text.RegularExpressions;
 
+namespace Daily
+{
     public class HugeNumber
     {
-        public string hugeNumber(string[] nums)
+        public string hugeNumber(string[] n)
         {
-            var maxLength = nums.Max(n => n.Length);
-            var nump = new List<string>();
-
-            foreach (var num in nums) {
-                nump.Add(num.PadRight(maxLength, 'x'));
-            }
-
-            nump = nump.OrderByDescending(n => n).ToList();
-            //Array.Sort(nump, (a, b) => b.CompareTo(a));
-            return string.Concat(nump).Replace("x", "");
+            Array.Sort(n, (a, b) => (b+a).CompareTo(a+b));
+            var o = string.Concat(n).TrimStart('0');
+            return o == "" ? "0" : o;
         }
     }
 }
