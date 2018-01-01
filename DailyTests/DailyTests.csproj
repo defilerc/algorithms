@@ -59,6 +59,8 @@
     <Compile Include="SortMusicCollectionTests.cs" />
     <Compile Include="ChristmasThiefTests.cs" />
     <Compile Include="HugeNumberTests.cs" />
+    <Compile Include="SumBelowBoundTests.cs" />
+    <Compile Include="HollowDiamondTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
