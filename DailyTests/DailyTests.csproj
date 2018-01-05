@@ -61,6 +61,7 @@
     <Compile Include="HugeNumberTests.cs" />
     <Compile Include="SumBelowBoundTests.cs" />
     <Compile Include="HollowDiamondTests.cs" />
+    <Compile Include="AlmostPalindromeTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
