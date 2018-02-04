@@ -4,12 +4,12 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace AlgoTests.TopTal2
 {
     [TestClass]
-    public class Algo1Tests
+    public class Try1Tests
     {
         [TestMethod]
         public void Algo1()
         {
-            var algo = new Algo1();
+            var algo = new Try1();
 
             var res = algo.solution(new int[]{1, 5, 3, 3, 7});
             Assert.IsTrue(res);

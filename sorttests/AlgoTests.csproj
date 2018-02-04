@@ -61,6 +61,7 @@
     <Compile Include="BfsDfs\LongestPathTests.cs" />
     <Compile Include="Bits\InsertBitsTests.cs" />
     <Compile Include="Bits\StreamValidationTests.cs" />
+    <Compile Include="CfAssessment\CfAssessmentTests.cs" />
     <Compile Include="CommonTechniques\MinSubStringWithAllCharsTests.cs" />
     <Compile Include="CommonTechniques\SumInRangeTests.cs" />
     <Compile Include="CommonTechniques\MaxConsecutiveSumTests.cs" />
@@ -94,7 +95,10 @@
     <Compile Include="Strings\ClassifyStringsTests.cs" />
     <Compile Include="Strings\LongestCommonSubstringTests.cs" />
     <Compile Include="Strings\TestJustificationTests.cs" />
-    <Compile Include="TopTal\Algo1Tests.cs" />
+    <Compile Include="TopTal2\Toptal2Tests.cs" />
+    <Compile Include="TopTal2\Round2Tests.cs" />
+    <Compile Include="ToptalSampleInterview\ToptalSampleInterviewTests.cs" />
+    <Compile Include="TopTal\Try1Tests.cs" />
     <Compile Include="TopTal\SwapSortTest.cs" />
     <Compile Include="Arrays\SudokuTests.cs" />
     <Compile Include="Arrays\IsCryptSolutionTest.cs" />
@@ -116,6 +120,7 @@
     <Compile Include="Trees\DeleteFromBSTTests.cs" />
     <Compile Include="Trees\TraversalsTests.cs" />
     <Compile Include="Trees\RestoreBinaryTreeTests.cs" />
+    <Compile Include="Trees\FindSubstringsTests.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
