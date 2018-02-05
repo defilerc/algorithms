@@ -5,7 +5,7 @@
 
     public class BubbleSort
     {
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             var N = int.Parse(Console.ReadLine());
             var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
