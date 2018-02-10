@@ -1,14 +1,24 @@
-﻿using System;
-
-namespace HackerEarth.Sorting
+﻿namespace HackerEarth.Sorting
 {
+    using System;
+    using System.Linq;
+
     public class MergeSortAlgo
     {
+        private static ulong count = 0;
+
         public static void Main(string[] args)
         {
-            var a = new[] {5, 4, 3, 1, 2};
+            //var N = int.Parse(Console.ReadLine());
+            //var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-            MergeSort(a, 0, a.Length - 1);
+            var array = new[] {5, 4, 3, 2, 1};
+            //var array = new[] {1, 4, 3, 2, 5};
+            int N = array.Length;
+
+            MergeSort(array, 0, N - 1);
+
+            Console.WriteLine(count);
         }
 
         private static void MergeSort(int[] a, int start, int end)
@@ -18,34 +28,65 @@ namespace HackerEarth.Sorting
             }
 
             var mid = start + (end - start) / 2;
-            
+
             MergeSort(a, start, mid);
             MergeSort(a, mid + 1, end);
 
             Merge(a, start, mid, end);
         }
 
-        private static void Merge(int[] a, int start, int mid, int end)
+        private static void MyMerge(int[] a, int start, int mid, int end)
         {
-            int left = start, k = 0;
-            var right = mid + 1;
-            var sorted = new int[end - start + 1];
+            int p = start, k = 0;
+            int q = mid + 1;
+            var b = new int[end - start + 1];
 
             for (var i = start; i <= end; i++) {
-                if (left > right) {
-                    sorted[k++] = a[right++];
-                } else if (right > end) {
-                    sorted[k++] = a[left++];
-                } else if (a[left] > a[right]) {
-                    sorted[k++] = a[right++];
+                if (p > q) {
+                    b[k++] = a[q++];
+                } else if (q > end) {
+                    b[k++] = a[p++];
+                } else if (a[p] <= a[q]) {
+                    b[k++] = a[p++];
                 } else {
-                    sorted[k++] = a[left++];
+                    count += (ulong) (mid - p + 1);
+                    b[k++] = a[q++];
                 }
             }
 
             k = 0;
             for (var i = start; i <= end; i++) {
-                a[i] = sorted[k++];
+                a[i] = b[k++];
+            }
+        }
+
+        private static void Merge(int[] a, int start, int mid, int end)
+        {
+            int p = start, k = 0;
+            int q = mid + 1;
+            var b = new int[end - start + 1];
+
+            while (p <= mid && q <= end) {
+
+                if (a[p] <= a[q])
+                    b[k++] = a[p++];
+                else if (a[p] > a[q]) {
+                    b[k++] = a[q++];
+                    count += (ulong) (mid - p + 1);
+                }
+            }
+
+            while (p <= mid) {
+                b[k++] = a[p++];
+            }
+
+            while (q <= end) {
+                b[k++] = a[q++];
+            }
+
+            k = 0;
+            for (var i = start; i <= end; i++) {
+                a[i] = b[k++];
             }
         }
     }
