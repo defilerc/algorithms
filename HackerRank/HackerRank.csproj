@@ -46,7 +46,7 @@
   <ItemGroup>
     <Compile Include="BoardCutting.cs" />
     <Compile Include="CoinChangeAlgo.cs" />
-    <Compile Include="Day4.cs" />
+    <Compile Include="Days.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
