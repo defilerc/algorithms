@@ -11,7 +11,7 @@ namespace DailyTests.Feb
         public void TestMethod1()
         {
             var algo = new DeceptiveTransmission();
-            var result = algo.deceptiveTransmission(
+            var result = algo.deceptiveTransmission_kathogh(
                 "‪T‪h‪i‪s‪ ‭i‪s‪ ‭H‭Q‭.‪ ‪C‭o‭m‪m‪e‪n‪c‪e‪ ‪o‪p‭e‪r‪a‭t‪i‭o‪n‭ ‭C‪O‭B‪R‭A‪.‪ ‭S‪e‪n‭d‭ ‭a‪l‭l‪ ‭u‪n‪i‭t‪s‪ ‭t‭o‪ ‪a‭t‭t‭a‭c‭k‪ ‭t‪h‪e‪ ‭n‭o‪r‪t‪h‪ ‪g‪a‭t‪e‪ ‭a‭t‪ ‪2‭1‪4‪5");
 
             result = algo.deceptiveTransmission(

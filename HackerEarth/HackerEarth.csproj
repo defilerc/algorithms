@@ -41,18 +41,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1DArray.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkLuckyMinimum.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkNewArray.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkOperations.cs" />
     <Compile Include="CountBits.cs" />
+    <Compile Include="FebCircuits\Problem1.cs" />
     <Compile Include="FebruaryEasyAlgo.cs" />
     <Compile Include="MultiDArray.cs" />
     <Compile Include="NQueensAlgo.cs" />
+    <Compile Include="NumberTheory\Basic.cs" />
+    <Compile Include="NumberTheory\Basic2.cs" />
     <Compile Include="PossibleSubsets.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\BinarySearchAlgo.cs" />
+    <Compile Include="Searching\TernarySearchAlgo.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Sorting\InsertionSort.cs" />
     <Compile Include="Sorting\MergeSortAlgo.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\RadixSort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StacksQueues\QueueAlgo.cs" />
+    <Compile Include="StacksQueues\StackAlgo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

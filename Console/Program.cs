@@ -1,12 +1,9 @@
-﻿using HackerEarth;
+﻿using HackerEarth.NumberTheory; 
 
-namespace Console
-{
-    public class Program
+public class Program
     {
         static void Main(string[] args)
         {
-            MultiDArray.Main(args);
+            Basic2.Main(new string[0]);
         }
     }
-}

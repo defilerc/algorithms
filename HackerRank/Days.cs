@@ -6,7 +6,7 @@ namespace HackerRank
 {
     using System;
 
-    public class Solution
+    public class HackerRank
     {
 
         public static void Day5(String[] args)
@@ -59,6 +59,48 @@ namespace HackerRank
                     $"{name}={phones[name]}" : "Not found");
             }
         }
-}
 
+        public static void Day10(String[] args)
+        {
+            int n = Convert.ToInt32(Console.ReadLine());
+            int max = 0, consecutive = 0;
+            while (n > 0) {
+                if ((n & 1) > 0) {
+                    consecutive++;
+
+                    if (consecutive > max) {
+                        max = consecutive;
+                    }
+                } else {
+                    consecutive = 0;
+                }
+                n >>= 1;
+            }
+            Console.WriteLine(max);
+        }
+
+        public static void Day11(string[] args)
+        {
+            var arrayList = new List<int[]>();
+            for (var i = 0; i < 6; i++) {
+                arrayList[i] = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            }
+
+            var array = arrayList.ToArray();
+
+            var max = 0;
+
+            for (var i = 0; i < 4; i++) {
+                for (var j = 0; j < 4; i++) {
+                    var sum = array[i][j] + array[i][j + 1] + array[i][j + 2] +
+                              array[i + 1][j + 1] + 
+                              array[i + 2][j] + array[i + 2][j + 1] + array[i + 2][j + 2];
+
+                    max = Math.Max(sum, max);
+                }
+            }
+
+            Console.WriteLine(max);
+        }
+    }
 }

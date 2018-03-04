@@ -50,6 +50,9 @@
   <ItemGroup>
     <Compile Include="AreYouHungaryTests.cs" />
     <Compile Include="Feb\DeceptiveTransmissionTests.cs" />
+    <Compile Include="Feb\CommonPointsTests.cs" />
+    <Compile Include="Feb\MSquareTests.cs" />
+    <Compile Include="Feb\NckSumTests.cs" />
     <Compile Include="Jan\KeyboardPathTests.cs" />
     <Compile Include="Jan\HitmanTests.cs" />
     <Compile Include="Jan\LastDigitNonZeroTests.cs" />

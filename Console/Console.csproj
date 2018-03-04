@@ -58,6 +58,10 @@
       <Project>{634747CD-A72D-4674-9A9B-A644BD6A8C7F}</Project>
       <Name>HackerEarth</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HackerRank\HackerRank.csproj">
+      <Project>{46A4B481-8188-4669-90FA-0153AE071978}</Project>
+      <Name>HackerRank</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

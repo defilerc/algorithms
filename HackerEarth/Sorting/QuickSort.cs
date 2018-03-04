@@ -7,11 +7,8 @@
     {
         public static void Main(string[] args)
         {
-            //var N = int.Parse(Console.ReadLine());
-            //var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-
-            var N = 5;
-            var array = new[] {4, 3, 1, 5, 2};
+            var N = int.Parse(Console.ReadLine());
+            var array = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
             QuickSort(array, 0, N - 1);
 

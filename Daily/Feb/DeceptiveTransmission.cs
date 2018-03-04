@@ -17,5 +17,25 @@ namespace Daily.Feb
                 .Select(d =>  (char) ('A' + d))
                 .Select(d => d == '[' ? ' ' : d)
                 .ToArray()).Trim();
+
+
+        int a = 16, b, i;
+
+        public string deceptiveTransmission_kathogh(string e)
+        {
+            var z = "";
+
+            for (; i < e.Length; i += 2) {
+                if (e[i] != 8234) b += a;
+                a /= 2;
+                if (a < 1) {
+                    z += b > 25 ? ' ' : (char) (b + 65);
+                    a = 16;
+                    b = 0;
+                }
+            }
+
+            return z.Trim();
+        }
     }
 }
