@@ -1,9 +1,9 @@
-﻿using HackerEarth.NumberTheory; 
+﻿using HackerEarth.CodeMonk.Checkpoint1;
 
 public class Program
     {
         static void Main(string[] args)
         {
-            Basic2.Main(new string[0]);
+            MonkNewArray.Main(new string[0]);
         }
     }
