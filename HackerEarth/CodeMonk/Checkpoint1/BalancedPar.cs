@@ -21,8 +21,7 @@ public class BalancedPar
                 continue;
             }
 
-            var index = stack.Peek();
-            stack.Pop();
+            var index = stack.Pop();
 
             if (array[index] != -array[i]) {
                 stack.Push(i);

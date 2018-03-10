@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="1DArray.cs" />
     <Compile Include="CodeMonk\Checkpoint1\BalancedPar.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkAndNumber2.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkAndNumber.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkLuckyMinimum.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkNewArray.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkOperations.cs" />
