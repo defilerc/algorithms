@@ -50,6 +50,7 @@
     <Compile Include="CountBits.cs" />
     <Compile Include="FebCircuits\Problem1.cs" />
     <Compile Include="FebruaryEasyAlgo.cs" />
+    <Compile Include="Models\Models.cs" />
     <Compile Include="MultiDArray.cs" />
     <Compile Include="NQueensAlgo.cs" />
     <Compile Include="NumberTheory\Basic.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StacksQueues\QueueAlgo.cs" />
     <Compile Include="StacksQueues\StackAlgo.cs" />
+    <Compile Include="Trees\TreeDiameter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,7 @@
 ﻿namespace HackerEarth.CodeMonk.Checkpoint1
 {
     using System;
+    using System.Linq;
     using System.Collections.Generic;
 
     public class MonkAndNumberSol
@@ -9,18 +10,16 @@
 
         public static void Main(string[] args) 
         {
-            var t = long.Parse(Console.ReadLine());
+            var t = int.Parse(Console.ReadLine());
 
             while (t-- > 0) {
-                var n = long.Parse(Console.ReadLine());
+                var n = int.Parse(Console.ReadLine());
 
                 var m = new Dictionary<long, long>();
-                for (var i = 1; i <= 2 * n - 1; i++) {
-                    var c = (char)Console.Read();
-                    if (c == ' ') {
-                        continue;
-                    }
-                    var temp = (long)char.GetNumericValue(c);
+                var a = Array.ConvertAll(Console.ReadLine().Split(' ').ToArray(), long.Parse);
+
+                for (var i = 0; i < a.Length; i++) {
+                    var temp = a[i];
 
                     for (var j = 2; j <= Math.Sqrt(temp); j++) {
                         long cnt = 0;
@@ -54,9 +53,9 @@
                 foreach (var keypair in m) {
                     long pw = 1;
                     long sum = 0;
-                    for (long i = keypair.Value + 1; i >= 1; i--) {
-                        sum = (sum + ((long) i * (long) pw) % MOD) % MOD;
-                        pw = ((long) pw * (long) keypair.Key) % MOD;
+                    for (var i = keypair.Value + 1; i >= 1; i--) {
+                        sum = (sum + (i * pw) % MOD) % MOD;
+                        pw = (pw * keypair.Key) % MOD;
                     }
 
                     ans = (ans * sum) % MOD;

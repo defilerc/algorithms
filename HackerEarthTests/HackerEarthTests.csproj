@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PossibleSubsetsTests.cs" />
     <Compile Include="NQueensAlgoTests.cs" />
+    <Compile Include="Trees\TreeDiameterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
