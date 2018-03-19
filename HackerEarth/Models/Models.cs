@@ -31,13 +31,7 @@
         public Tree left { get; set; }
         public Tree right { get; set; }
 
-        public Tree()
-        {
-        }
-
-        public Tree(int value)
-        {
-            this.value = value;
-        }
+        public Tree() { }
+        public Tree(int value) { this.value = value; }
     }
 }

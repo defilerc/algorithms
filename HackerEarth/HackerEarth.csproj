@@ -50,6 +50,11 @@
     <Compile Include="CountBits.cs" />
     <Compile Include="FebCircuits\Problem1.cs" />
     <Compile Include="FebruaryEasyAlgo.cs" />
+    <Compile Include="Graphs\GraphRepresentationAlgo.cs" />
+    <Compile Include="MarCircuits\BreakingEdgesAlgo.cs" />
+    <Compile Include="C:\Users\kostas\Desktop\MissileBombingAlgo.cs">
+      <Link>MarCircuits\MissileBombingAlgo.cs</Link>
+    </Compile>
     <Compile Include="Models\Models.cs" />
     <Compile Include="MultiDArray.cs" />
     <Compile Include="NQueensAlgo.cs" />
@@ -68,6 +73,7 @@
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="StacksQueues\QueueAlgo.cs" />
     <Compile Include="StacksQueues\StackAlgo.cs" />
+    <Compile Include="Trees\BinarySearchTree.cs" />
     <Compile Include="Trees\TreeDiameter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
