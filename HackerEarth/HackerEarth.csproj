@@ -48,6 +48,7 @@
     <Compile Include="CodeMonk\Checkpoint1\MonkNewArray.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkOperations.cs" />
     <Compile Include="CountBits.cs" />
+    <Compile Include="Disjoint\DisjointAlgo.cs" />
     <Compile Include="FebCircuits\Problem1.cs" />
     <Compile Include="FebruaryEasyAlgo.cs" />
     <Compile Include="Graphs\Bfs.cs" />
@@ -56,10 +57,8 @@
     <Compile Include="Graphs\UnreachableNodesAlgo.cs" />
     <Compile Include="MarCircuits\BigNumberArray.cs" />
     <Compile Include="MarCircuits\BreakingEdgesAlgo.cs" />
-    <Compile Include="C:\Users\kostas\Desktop\MissileBombingAlgo.cs">
-      <Link>MarCircuits\MissileBombingAlgo.cs</Link>
-    </Compile>
     <Compile Include="MarCircuits\LaserTanks.cs" />
+    <Compile Include="MarCircuits\MissileBombingAlgo.cs" />
     <Compile Include="MarCircuits\SimplePolygons.cs" />
     <Compile Include="Models\Models.cs" />
     <Compile Include="MultiDArray.cs" />
