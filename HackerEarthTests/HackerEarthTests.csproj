@@ -51,6 +51,7 @@
     <Compile Include="CodeMonk\Checkpoint1\MonkAndNumberTests.cs" />
     <Compile Include="FebCircuits\FebCircuitsTests.cs" />
     <Compile Include="FebruaryEasyTests.cs" />
+    <Compile Include="MarCircuits\UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PossibleSubsetsTests.cs" />
     <Compile Include="NQueensAlgoTests.cs" />
