@@ -2,12 +2,13 @@
 using HackerEarth.MarCircuits;
 using HackerEarth.Graphs;
 using System.Collections.Generic;
+using HackerEarth.Disjoint;
 
 public class Program
 {
     static void Main(string[] args)
     {
-        UnreachableNodesAlgo.Main(new string[0]);
+        DisjointAlgo.Main(new string[0]);
     }
 }
 
