@@ -1,14 +1,11 @@
-﻿using HackerRank;
-using HackerEarth.MarCircuits;
-using HackerEarth.Graphs;
-using System.Collections.Generic;
-using HackerEarth.Disjoint;
+﻿using System.Collections.Generic;
+using HackerEarth.PriorityQueue;
 
 public class Program
 {
     static void Main(string[] args)
     {
-        DisjointAlgo.Main(new string[0]);
+        MaxInQueueAlgo.Main(new string[0]);
     }
 }
 
