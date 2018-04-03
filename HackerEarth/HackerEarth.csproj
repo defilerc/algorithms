@@ -47,6 +47,7 @@
     <Compile Include="CodeMonk\Checkpoint1\MonkLuckyMinimum.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkNewArray.cs" />
     <Compile Include="CodeMonk\Checkpoint1\MonkOperations.cs" />
+    <Compile Include="CodeMonk\Checkpoint2\DynamicArray.cs" />
     <Compile Include="CodeMonk\Checkpoint2\LonelyMonk.cs" />
     <Compile Include="CodeMonk\Checkpoint2\MonkAndDigitalWorld.cs" />
     <Compile Include="CountBits.cs" />

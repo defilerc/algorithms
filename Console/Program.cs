@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
+using HackerEarth.CodeMonk.Checkpoint2;
 using HackerEarth.PriorityQueue;
 
 public class Program
 {
     static void Main(string[] args)
     {
-        MaxInQueueAlgo.Main(new string[0]);
+        //MaxInQueueAlgo.Main(new string[0]);
+        DynamicArray.Main(new string[0]);
     }
 }
 
