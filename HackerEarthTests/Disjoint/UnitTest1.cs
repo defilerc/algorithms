@@ -12,11 +12,11 @@ namespace HackerEarthTests.Disjoint
         {
             var a = Enumerable.Range(0, 10).ToArray();
 
-            DisjointAlgo.Union(a, 2, 1);
-            DisjointAlgo.Union(a, 4, 3);
-            DisjointAlgo.Union(a, 8, 4);
-            DisjointAlgo.Union(a, 9, 3);
-            DisjointAlgo.Union(a, 6, 5);
+            DisjointAlgo.QuickUnion(a, 2, 1);
+            DisjointAlgo.QuickUnion(a, 4, 3);
+            DisjointAlgo.QuickUnion(a, 8, 4);
+            DisjointAlgo.QuickUnion(a, 9, 3);
+            DisjointAlgo.QuickUnion(a, 6, 5);
         }
 
         [TestMethod]
