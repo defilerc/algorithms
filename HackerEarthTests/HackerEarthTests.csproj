@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeMonk\Checkpoint1\MonkAndNumberTests.cs" />
+    <Compile Include="CodeMonk\Checkpoint2\UnitTest1.cs" />
     <Compile Include="Disjoint\UnitTest1.cs" />
     <Compile Include="FebCircuits\FebCircuitsTests.cs" />
     <Compile Include="FebruaryEasyTests.cs" />
