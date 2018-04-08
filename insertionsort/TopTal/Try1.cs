@@ -1,6 +1,6 @@
 ﻿namespace Algo.Toptal2
 {
-    public class Algo1
+    public class Try1
     {
         public bool solution(int[] A)
         {

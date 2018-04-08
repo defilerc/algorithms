@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algo", "insertionsort\Algo.csproj", "{58EB29D1-C94A-42BE-BBB3-1AAC4662E21E}"
 EndProject
@@ -18,6 +18,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bots", "Bots\Bots.csproj", "{1C508DDD-14C9-4D98-A5F1-2F6EBE226319}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotsTest", "BotsTest\BotsTest.csproj", "{0064C093-511A-40C2-A080-6B4FA4F508E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{9C6776A3-227B-497A-8C15-4A766A6FDC66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarth", "HackerEarth\HackerEarth.csproj", "{634747CD-A72D-4674-9A9B-A644BD6A8C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarthTests", "HackerEarthTests\HackerEarthTests.csproj", "{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{0064C093-511A-40C2-A080-6B4FA4F508E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0064C093-511A-40C2-A080-6B4FA4F508E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0064C093-511A-40C2-A080-6B4FA4F508E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6776A3-227B-497A-8C15-4A766A6FDC66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6776A3-227B-497A-8C15-4A766A6FDC66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6776A3-227B-497A-8C15-4A766A6FDC66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6776A3-227B-497A-8C15-4A766A6FDC66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634747CD-A72D-4674-9A9B-A644BD6A8C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634747CD-A72D-4674-9A9B-A644BD6A8C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634747CD-A72D-4674-9A9B-A644BD6A8C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634747CD-A72D-4674-9A9B-A644BD6A8C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

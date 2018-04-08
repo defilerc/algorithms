@@ -48,6 +48,18 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreYouHungaryTests.cs" />
+    <Compile Include="Feb\DeceptiveTransmissionTests.cs" />
+    <Compile Include="Feb\CommonPointsTests.cs" />
+    <Compile Include="Feb\MSquareTests.cs" />
+    <Compile Include="Feb\NckSumTests.cs" />
+    <Compile Include="Jan\KeyboardPathTests.cs" />
+    <Compile Include="Jan\HitmanTests.cs" />
+    <Compile Include="Jan\LastDigitNonZeroTests.cs" />
+    <Compile Include="Jan\DonkeyKongTests.cs" />
+    <Compile Include="Jan\SubsetGcdTests.cs" />
+    <Compile Include="Jan\PrivateEyesOnlyTests.cs" />
+    <Compile Include="MinesweeperTests.cs" />
     <Compile Include="MostActiveYoutubeChannelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConvolutedSummaryTests.cs" />
@@ -59,6 +71,12 @@
     <Compile Include="SortMusicCollectionTests.cs" />
     <Compile Include="ChristmasThiefTests.cs" />
     <Compile Include="HugeNumberTests.cs" />
+    <Compile Include="SumBelowBoundTests.cs" />
+    <Compile Include="HollowDiamondTests.cs" />
+    <Compile Include="AlmostPalindromeTests.cs" />
+    <Compile Include="theLoShuSquarePartITests.cs" />
+    <Compile Include="ChristmasToysAlgo.cs" />
+    <Compile Include="VigenereKeyTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

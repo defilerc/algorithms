@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{634747CD-A72D-4674-9A9B-A644BD6A8C7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HackerEarth</RootNamespace>
+    <AssemblyName>HackerEarth</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1DArray.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\BalancedPar.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkAndNumber2.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkAndNumber.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkLuckyMinimum.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkNewArray.cs" />
+    <Compile Include="CodeMonk\Checkpoint1\MonkOperations.cs" />
+    <Compile Include="CodeMonk\Checkpoint2\DynamicArray.cs" />
+    <Compile Include="CodeMonk\Checkpoint2\LonelyMonk.cs" />
+    <Compile Include="CodeMonk\Checkpoint2\MonkAndDigitalWorld.cs" />
+    <Compile Include="CountBits.cs" />
+    <Compile Include="Disjoint\DisjointAlgo.cs" />
+    <Compile Include="FebCircuits\Problem1.cs" />
+    <Compile Include="FebruaryEasyAlgo.cs" />
+    <Compile Include="Graphs\Bfs.cs" />
+    <Compile Include="Graphs\Dfs.cs" />
+    <Compile Include="Graphs\GraphRepresentationAlgo.cs" />
+    <Compile Include="Graphs\UnreachableNodesAlgo.cs" />
+    <Compile Include="MarCircuits\BigNumberArray.cs" />
+    <Compile Include="MarCircuits\BreakingEdgesAlgo.cs" />
+    <Compile Include="MarCircuits\LaserTanks.cs" />
+    <Compile Include="MarCircuits\MissileBombingAlgo.cs" />
+    <Compile Include="MarCircuits\SimplePolygons.cs" />
+    <Compile Include="Models\Models.cs" />
+    <Compile Include="MultiDArray.cs" />
+    <Compile Include="NQueensAlgo.cs" />
+    <Compile Include="NumberTheory\Basic.cs" />
+    <Compile Include="NumberTheory\Basic2.cs" />
+    <Compile Include="PossibleSubsets.cs" />
+    <Compile Include="PriorityQueue\MaxInQueueAlgo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searching\BinarySearchAlgo.cs" />
+    <Compile Include="Searching\TernarySearchAlgo.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\CountingSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSortAlgo.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="Sorting\RadixSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
+    <Compile Include="StacksQueues\QueueAlgo.cs" />
+    <Compile Include="StacksQueues\StackAlgo.cs" />
+    <Compile Include="Trees\BinarySearchTree.cs" />
+    <Compile Include="Trees\TreeDiameter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
