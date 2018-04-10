@@ -58,6 +58,7 @@
     <Compile Include="Graphs\Bfs.cs" />
     <Compile Include="Graphs\Dfs.cs" />
     <Compile Include="Graphs\GraphRepresentationAlgo.cs" />
+    <Compile Include="Graphs\Mst.cs" />
     <Compile Include="Graphs\UnreachableNodesAlgo.cs" />
     <Compile Include="Greedy\GreedyWater.cs" />
     <Compile Include="MarCircuits\BigNumberArray.cs" />
