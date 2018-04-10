@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HackerEarth.CodeMonk.Checkpoint2
 {
@@ -20,7 +21,7 @@ namespace HackerEarth.CodeMonk.Checkpoint2
             return r;
         }
 
-        public static int LongestIncreasingSubsequenceLength(int[] A, int size)
+        public static int LongestIncreasingSubsequenceLength(List<int> A, int size)
         {
             // Add boundary case, when array size is one
 
