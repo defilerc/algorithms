@@ -5,15 +5,12 @@
 
     public class MinimumSpanningTree
     {
-
-        const int MAX = 10005;
-        static int[] id = new int[MAX];
-        static int nodes, edges;
-        static Tuple<long, Tuple<int, int>>[] p = new Tuple<long, Tuple<int, int>>[MAX];
+        static int[] id;
+        static Tuple<long, Tuple<int, int>>[] p;
 
         static void Init()
         {
-            for (int i = 0; i < MAX; ++i)
+            for (int i = 0; i < id.Length; ++i)
                 id[i] = i;
         }
 
@@ -35,12 +32,13 @@
 
         static long Kruskal(Tuple<long, Tuple<int, int>>[] p)
         {
-            int x, y;
+            var edges = p.Length;
             long cost, minimumCost = 0;
+
             for (int i = 0; i < edges; ++i) {
                 // Selecting edges one by one in increasing order from the beginning
-                x = p[i].Item2.Item1;
-                y = p[i].Item2.Item2;
+                var x = p[i].Item2.Item1;
+                var y = p[i].Item2.Item2;
                 cost = p[i].Item1;
 
                 // Check if the selected edge is creating a cycle or not
@@ -54,13 +52,15 @@
 
         public static void Main(string[] args)
         {
-            Init();
-
-            var nm = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            var nm = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToArray();
             int nodes = nm[0], edges = nm[1];
 
+            id = new int[edges];
+            Init();
+            p = new Tuple<long, Tuple<int, int>>[edges];
+
             for (int i = 0; i < edges; ++i) {
-                var inp = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                var inp = Console.ReadLine().Trim().Split(' ').Select(int.Parse).ToArray();
 
                 int x = inp[0], y = inp[1], weight = inp[2];
 
