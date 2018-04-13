@@ -8,7 +8,7 @@ public class Program
     static void Main(string[] args)
     {
         //MaxInQueueAlgo.Main(new string[0]);
-        MinimumSpanningTree.Main(new string[0]);
+        BellmanFord.Main(new string[0]);
     }
 }
 
