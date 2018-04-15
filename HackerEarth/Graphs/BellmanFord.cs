@@ -20,7 +20,12 @@
             }
 
             for (var i = 0; i < m; i++) {
-                var e = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                var line = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(line)) {
+                    continue;
+                }
+                var e = line.Split(' ').Select(int.Parse).ToArray();
                 int x = e[0], y = e[1], w = e[2];
 
                 if (v[i] == null) {
@@ -35,7 +40,7 @@
             for (var i = 0; i < n - 1; i++) {
                 var j = 0;
 
-                while (j < v.Length && [j] != null && v[j].Count != 0) {
+                while (j < v.Length && v[j] != null && v[j].Count != 0) {
                     int x = v[j][0] - 1, y = v[j][1] - 1, w = v[j][2];
 
                     dis[y] = Math.Min(dis[y], dis[x] + w);

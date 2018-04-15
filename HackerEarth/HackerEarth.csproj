@@ -58,6 +58,7 @@
     <Compile Include="Graphs\BellmanFord.cs" />
     <Compile Include="Graphs\Bfs.cs" />
     <Compile Include="Graphs\Dfs.cs" />
+    <Compile Include="Graphs\Dijkstra.cs" />
     <Compile Include="Graphs\GraphRepresentationAlgo.cs" />
     <Compile Include="Graphs\MinimumSpanningTree.cs" />
     <Compile Include="Graphs\UnreachableNodesAlgo.cs" />
