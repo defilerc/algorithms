@@ -90,7 +90,7 @@
     public class MinPriorityQueue
     {
         private static int Length = 0;
-        private static int[] arr = new int[2000000000];
+        private static int[] arr = new int[1000000];
 
         public static int Peek(int[] arr) => arr[1];
 

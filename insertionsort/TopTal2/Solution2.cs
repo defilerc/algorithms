@@ -33,7 +33,7 @@ namespace Algo.TopTal2
 
             for (var j = 0; j < s.Length; j++) {
                 str += s[j].ToString();
-                return PickDigit(s.Remove(j, 1), set, str);
+                //return PickDigit(s.Remove(j, 1), set, str);
             }
 
             return "";

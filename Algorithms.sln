@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarth", "HackerEarth\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerEarthTests", "HackerEarthTests\HackerEarthTests.csproj", "{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVa", "UVa\UVa.csproj", "{3992B19C-1ECC-4157-A2BB-940ED09BC690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UVaTests", "UVaTests\UVaTests.csproj", "{CBC06B74-320D-49AE-AF99-543DA94778F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5A3C96-EEB4-4A68-B0DF-AA6A6ED7269C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3992B19C-1ECC-4157-A2BB-940ED09BC690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3992B19C-1ECC-4157-A2BB-940ED09BC690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3992B19C-1ECC-4157-A2BB-940ED09BC690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3992B19C-1ECC-4157-A2BB-940ED09BC690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC06B74-320D-49AE-AF99-543DA94778F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC06B74-320D-49AE-AF99-543DA94778F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC06B74-320D-49AE-AF99-543DA94778F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC06B74-320D-49AE-AF99-543DA94778F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

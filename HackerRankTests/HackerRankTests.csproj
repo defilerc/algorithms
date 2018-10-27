@@ -52,6 +52,7 @@
     <Compile Include="CoinChangeAlgoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BoardCuttingTests.cs" />
+    <Compile Include="Sep\BiggerIsGreaterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
