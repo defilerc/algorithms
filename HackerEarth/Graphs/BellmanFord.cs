@@ -35,7 +35,7 @@
             for (var i = 0; i < n - 1; i++) {
                 var j = 0;
 
-                while (j < v.Length && [j] != null && v[j].Count != 0) {
+                while (j < v.Length && v[j] != null && v[j].Count != 0) {
                     int x = v[j][0] - 1, y = v[j][1] - 1, w = v[j][2];
 
                     dis[y] = Math.Min(dis[y], dis[x] + w);
