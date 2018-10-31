@@ -4,6 +4,18 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Node.js Launch",
+            // "port": 9229,
+            "program": "${file}"
+        },
+        // "type": "node",
+        // "request": "launch",
+        // "name": "Launch Program",
+        // "program": "${file}"
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",

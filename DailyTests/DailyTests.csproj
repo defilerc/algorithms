@@ -68,6 +68,7 @@
     <Compile Include="RoadMapTests.cs" />
     <Compile Include="GradingHomeworkTests.cs" />
     <Compile Include="ArithmeticPredicateTests.cs" />
+    <Compile Include="Sep\SweetestSpoonTests.cs" />
     <Compile Include="SortMusicCollectionTests.cs" />
     <Compile Include="ChristmasThiefTests.cs" />
     <Compile Include="HugeNumberTests.cs" />

@@ -20,7 +20,12 @@
             }
 
             for (var i = 0; i < m; i++) {
-                var e = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+                var line = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(line)) {
+                    continue;
+                }
+                var e = line.Split(' ').Select(int.Parse).ToArray();
                 int x = e[0], y = e[1], w = e[2];
 
                 if (v[i] == null) {
